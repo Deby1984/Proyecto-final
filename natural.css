@@ -1,0 +1,107 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    justify-content: center;
+    height: 100%;
+    width:100%;
+    
+   }
+
+ #titulo{
+    background-color: rgb(145, 150, 155);
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    align-items: flex-start;
+}
+
+h1{
+    padding: 30px;
+    margin: 10px;
+}
+
+form{
+    margin: 20px;
+  }
+
+.contenedormenu{
+    display: flex;
+    background: rgb(121, 118, 121);
+    justify-content: space-evenly;
+  }
+ 
+ h2 { 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: rgb(194, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 300ms ease;
+    position: relative;
+
+  }
+
+ h2:hover{
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+    background: rgb(51, 51, 136);
+    transform: scale(1.1)
+}
+ 
+ .submenu {
+    width: 200px;
+   /* display: none;*/
+    background-color: burlywood;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    /*visibility: hidden;*/
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    z-index: 10;
+    transition: all 300ms easy;
+    list-style: none; 
+    
+ } 
+ 
+  /*.submenu :hover{
+visibility: visible;
+opacity: 1;
+top: 70px;
+ }*/
+
+ main{
+  display: flex;
+  flex-direction: column-reverse;
+}
+    
+footer{
+background-color:  burlywood;
+
+ }
+
+.tarjetas{
+   text-align: right;
+   justify-content: center;
+      }
+
+.redes{
+   text-align: left;
+
+}
+
+
+  
+
+          
+        
+        
+
+
+
+  
+  

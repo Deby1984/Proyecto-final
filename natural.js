@@ -6,3 +6,8 @@ function cargarEquipo()
 function cargarProcedimiento(){
     document.getElementById('procedimientos').innerHTML=
 }
+
+function portadas(){
+
+
+}

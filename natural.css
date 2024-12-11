@@ -6,25 +6,44 @@
     text-decoration: none;
   }
 
+  body{
+    width: 100%;
+    height: 50px;
+    }
+
   header{
     width: 100%;
-    position: fixed;
     top: 0;
     left: 0;
-  
+    
   }
 
- 
-
-  .portada{
+   .portada{
     max-width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 50px 0px 50px;
-    background: rgb(109, 108, 105);
+    background: rgb(240, 209, 166)
     
+  }
+
+  form{
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px
+  }
+
+ form > button{
+    border-color: solid black;
+    background-color: rgb(105, 100, 137);
+    justify-content: left;
+    color: aliceblue;
+   
+  }
+
+  input{
+    box-sizing: border-box;
   }
 
 
@@ -33,16 +52,16 @@
     height: 70px;
     padding: 20px 20px;
     margin: 0;
+        
   }
 
   .menu{
     height: 30%;
     background-color: rgb(56, 46, 56);
-      
   }
 
   nav{
-    height: 100%;
+    height: 50%;
    
   }
 
@@ -52,16 +71,15 @@ nav > ul{
   justify-content:space-around;
   margin-right: 30px;
   margin-left: 30px;
-
+ 
 }
 
 nav  ul  li{
   list-style: none;
   height: 100%;
   position: relative;
-
-
 }
+
 nav > ul > li > a{
   width: 100%;
   height: 100%;
@@ -70,29 +88,27 @@ nav > ul > li > a{
   align-items: center;
   padding: 14px;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 20px;
   transition: all 300ms ease;
-
 }
+
+
 nav > ul > li :hover{
   transform: scale(1.1);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0);
-
 }
 
-.contenedorsubmenu {
+#contenedorsubmenu{
   width: 200px;
   display: flex;
   flex-direction: column;
   background-color: beige;
-  box-shadow:0px 0px 10px 0px rgba(0,0,0,);
   position: absolute;
-  /*top: 60px;*/
- /* left: -5px;*/
+  top: 60px;
   padding: 14px 14px;
-  /*visibility: hidden;*/
-  z-index: 10;
+  visibility: hidden;
   transition: all 300ms ease;
+   
 }
 
 .submenu :before{
@@ -109,7 +125,7 @@ nav > ul > li :hover{
 
 
 .submenu :hover{
-  background: #c7cfd4;
+  background: #cbe3f2;
   color: rgb(12, 12, 12);
   transform: scale(1.1);
   padding-left: 30px;
@@ -119,30 +135,30 @@ nav > ul > li :hover{
 }
 
 .submenu{
-  display:block;
-  color: rgb(34, 33, 33);
+  display: block;
+  color: black;
   padding: 6px;
   padding-left: 14px;
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 30px;
+  font-size: 10px;
   transition: all 300ms ease;
 }
 
-body{
-width: 100%;
-height: 20%;
+#imagen1{
+  border-bottom: double rgb(130, 109, 109);
+  display: block;
 }
 
-.imagenportada{
- padding-top: 70px;
- height: 100%; 
+.imagenesvarias :hover {
+transform: scale(1.1);
+ transition: all 300ms ease;
 }
- 
-    
+  
 footer{
 background-color:  burlywood;
-
+display: block;
  }
+
  
 
 .tarjetas{
